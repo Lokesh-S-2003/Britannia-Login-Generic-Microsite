@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head><script type="text/javascript" async src="//cdn.evgnet.com/beacon/kasmotechnologies/britanniademo/scripts/evergage.min.js"></script>
+  <title>Good Day Microsite</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- LANDING -->
+  <div class="screen active" id="landing">
+    <img src="assets/logo.png" class="logo">
+
+    <h2>Good Day<br>Kis Baat Pe?</h2>
+
+    <p class="upto">Upto</p>
+    <h1 class="big">100% cashback</h1>
+    <p>Ki Barsaat Pe</p>
+
+    <img src="assets/biscuits.png" class="bottom-img">
+  </div>
+
+ 
+  <!-- LOGIN -->
+<div class="screen" id="login">
+  <img src="assets/logo.png" class="logo-small">
+
+  <div class="login-container">
+    <h2>Celebrate With Good Day</h2>
+    <p class="subtitle">Stand a chance to win great rewards!</p>
+
+    <p class="info-text">Enter your details to continue</p>
+
+    <!-- NAME -->
+    <label>Name*</label>
+    <input id="name" placeholder="Enter a name">
+
+    <!-- MOBILE -->
+    <label>Mobile*</label>
+    <input id="mobile" placeholder="Enter mobile">
+
+    <!-- CHECKBOX -->
+    <label class="checkbox-inline">
+      <input type="checkbox" id="terms">
+      I accept the <span>Terms and Conditions</span>
+    </label>
+
+    <button onclick="submitLogin()">Submit</button>
+  </div>
+
+  <img src="assets/biscuits.png" class="bottom-img">
+</div>
+
+  <!-- SCAN -->
+  <div class="screen" id="scan">
+    <img src="assets/logo.png" class="logo-small">
+
+    <h2>Scan the machine code<br>on the pack</h2>
+    <p class="link">Where to find machine code?</p>
+
+    <div class="scan-box"></div>
+
+    <button onclick="startScan()">Capture</button>
+
+    <img src="assets/biscuits.png" class="bottom-img">
+  </div>
+
+  <!-- VERIFY -->
+  <div class="screen" id="verify">
+    <h2>Verifying Code...</h2>
+  </div>
+
+  <!-- SUCCESS -->
+  <div class="screen" id="success">
+    <img src="assets/logo.png" class="logo-small">
+
+    <div class="card success">
+      <p>You Won</p>
+      <h2>Cashback!</h2>
+      <p>You will receive an SMS to claim your cashback</p>
+
+      <h1 class="amount">₹40</h1>
+
+      <button>How To Redeem</button>
+
+      <p class="thank">Thank you for your participation.</p>
+    </div>
+
+    <img src="assets/biscuits.png" class="bottom-img">
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

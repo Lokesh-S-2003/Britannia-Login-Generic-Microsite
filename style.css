@@ -1,0 +1,162 @@
+/* GLOBAL FIX */
+* {
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  background: #0b5fa5;
+}
+
+/* APP CONTAINER */
+.app {
+  width: 375px;
+  height: 812px;
+  background: linear-gradient(180deg, #1e73be, #0b5fa5);
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+/* SCREENS */
+.screen {
+  display: none;
+  padding: 20px;
+  text-align: center;
+}
+
+.screen.active {
+  display: block;
+}
+
+/* LOGOS */
+.logo {
+  width: 140px;
+  margin-top: 50px;
+}
+
+.logo-small {
+  width: 100px;
+  margin-top: 20px;
+}
+
+/* LANDING TEXT */
+.big {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.upto {
+  margin-top: 20px;
+}
+
+/* ================= LOGIN UI ================= */
+
+/* LOGIN CONTAINER */
+.login-container {
+  text-align: left;
+  padding: 20px 25px;
+}
+
+/* HEADINGS */
+.login-container h2 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.info-text {
+  font-size: 13px;
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+/* LABELS */
+.login-container label {
+  display: block;
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+/* INPUT FIELDS */
+.login-container input {
+  width: 100%;
+  padding: 14px;
+  margin-top: 6px;
+  border-radius: 10px;
+  border: none;
+  background: #e5e5e5;
+  font-size: 14px;
+}
+
+/* CHECKBOX INLINE */
+.checkbox-inline {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+.checkbox-inline input {
+  width: auto;
+  margin-right: 8px;
+}
+
+/* LINK STYLE */
+.checkbox-inline span {
+  text-decoration: underline;
+}
+
+/* BUTTON */
+button {
+  width: 100%;
+  padding: 14px;
+  background: #ffc107;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* ================= SCAN ================= */
+
+.scan-box {
+  width: 260px;
+  height: 260px;
+  background: #ddd;
+  margin: 20px auto;
+  border-radius: 16px;
+}
+
+/* ================= SUCCESS ================= */
+
+.card.success {
+  background: #f2f2f2;
+  color: black;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.amount {
+  color: #f5a623;
+  font-size: 42px;
+}
+
+/* ================= BOTTOM IMAGE ================= */
+
+.bottom-img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 280px;
+}
